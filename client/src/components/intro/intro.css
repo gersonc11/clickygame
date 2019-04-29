@@ -1,0 +1,84 @@
+.intro {
+  height: 970px;
+  background-image: url('https://media.giphy.com/media/l0HUme5gGCrlo5Dc4/giphy.gif');
+  background-repeat: none;
+  background-size: 100%;
+  overflow: auto;
+  overflow: hidden;
+}
+.words {
+  color: white;
+  text-align: center;
+  top: 400px;
+  z-index: 1;
+}
+
+
+
+
+#arrow {
+  font-size: 48px;
+  top: 350px;
+  padding: 20px; 
+  margin: 325px auto 0;
+}
+
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+  }
+@keyframes bounce {
+  25%, 50%, 100% {
+  transform: translateY(0);
+}
+33% {
+  transform: translateY(-30px);
+}
+66% {
+  transform: translateY(-15px);
+}
+}
+
+@media only screen and (max-width: 1024px) {
+  .intro {
+    height: 960px;
+    background-size: 100% 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .intro {
+    height: 1024px;
+    background-size: 100% 100%;
+  }
+  .words {
+    top: 475px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .intro {
+    height: 736px;
+    background-size: 736px;
+  }
+
+  .words{
+    font-size: 24px;
+    top: 350px;
+    text-align: center;
+  }
+
+  #arrow {
+    font-size: 60px;
+    padding: 20px; 
+    margin: 150px auto 0px;
+  }
+}
+
+
+
+
+
+

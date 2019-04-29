@@ -1,0 +1,109 @@
+.about {
+    height: 970px;
+    background-image: url("https://wallpapertag.com/wallpaper/middle/a/a/4/102788-light-grey-background-1920x1200-desktop.jpg#.XKzfnmcp-BQ.link");
+    background-size: 100%;
+    background-repeat: none;
+    color: white;
+    overflow: auto;
+}
+
+.aboutContainer {
+    max-width: 960px;
+}
+
+h4 {
+    margin-right: 100px;
+}
+
+li {
+    list-style: none;  
+    text-align: left; 
+    margin-left: 50px;
+}
+
+#skTitle {
+    margin-right: 100px;
+}
+
+#desc {
+    margin-top: 350px;
+}
+
+#skills {
+    color: black;
+    z-index: 1;
+    margin-top: -450px;
+}
+#me {
+    color: black;
+    text-align:center;  
+}
+
+@media only screen and (max-width: 1024px) {
+ .about {
+     height:100%;
+     background-size: 100% 100%;
+ }
+}
+
+  @media only screen and (max-width: 768px) {
+      .about{
+          height: 100%;
+          background-size: 100% 100%;
+      }
+      #desc {
+        margin-top: 0px;
+    }
+
+    #me {
+        margin-top: 300px;
+    }
+
+    #skills {
+        margin-top: -520px;
+        margin-bottom: 30px;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .about {
+      height: 100%;
+      padding: 0;
+      background-size: 100% 100%;
+    }
+    #desc {
+        margin-top: 10px;
+    }
+
+    #me {
+        margin-top: 40px;
+    }
+  
+
+    #skills {
+        margin-top: 50px;
+    }
+    
+    li {
+        margin: 0 30%;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    #me {
+    padding-left: 0px;
+    }
+
+    p{
+        font-size: 24px;
+        margin-left: 15px;
+    }
+    
+    h4 {
+        margin: 10px auto;
+    }
+
+    #skTitle {
+        margin: 0 auto;
+    }
+  }

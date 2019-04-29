@@ -1,0 +1,67 @@
+#contact {
+    height: 250px;
+    background: white;
+    text-align: center;
+}
+span {
+    font-size: 48px;
+}
+
+span:last-child {
+    margin-left: 15px;
+}
+
+a {
+    color: darkkhaki;
+}
+
+a:hover {
+    color: purple;
+}
+
+.pcon, .econ {
+    text-align: left;
+    margin-left: 35px;
+}
+
+
+
+.conts {
+    margin-left: 15px;
+    color: black;
+}
+
+@media only screen and (max-width:600px) {
+
+    .pcon {
+        margin-left: 75px;
+    }
+    .econ {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #contact {
+        height: 100px;
+    }
+
+    .pcon {
+        margin-left: 40px;
+    }
+
+     .econ {
+        text-align: left;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #contact {
+        max-width: 350px;
+    }
+
+    .econ{
+        margin-left: -10px;
+    }
+}
